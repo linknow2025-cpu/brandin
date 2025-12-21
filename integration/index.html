@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevFlow + LinkNow - Integration Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .card {
+            animation: fadeIn 0.5s ease-out;
+        }
+        .card:nth-child(1) { animation-delay: 0.1s; }
+        .card:nth-child(2) { animation-delay: 0.2s; }
+        .card:nth-child(3) { animation-delay: 0.3s; }
+        .card:nth-child(4) { animation-delay: 0.4s; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-purple-50 via-blue-50 to-blue-100 min-h-screen">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-purple-600 via-blue-600 to-blue-700 text-white shadow-2xl">
+        <div class="max-w-7xl mx-auto px-6 py-12">
+            <div class="text-center">
+                <div class="flex justify-center mb-6">
+                    <div class="w-24 h-24 bg-white rounded-2xl flex items-center justify-center shadow-2xl transform hover:scale-110 transition-transform">
+                        <span class="text-6xl">🔗</span>
+                    </div>
+                </div>
+                <h1 class="text-5xl font-bold mb-4">DevFlow + LinkNow</h1>
+                <p class="text-2xl text-blue-100 mb-2">Integration Suite</p>
+                <p class="text-blue-200 max-w-2xl mx-auto">
+                    4 métodos completos de integração para automatizar seu workflow de desenvolvimento
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <!-- Quick Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                <div class="text-4xl font-bold text-purple-600">4</div>
+                <div class="text-gray-600 mt-2">Opções de Integração</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                <div class="text-4xl font-bold text-blue-600">100%</div>
+                <div class="text-gray-600 mt-2">Funcional</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                <div class="text-4xl font-bold text-green-600">⚡</div>
+                <div class="text-gray-600 mt-2">Pronto para Uso</div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 text-center">
+                <div class="text-4xl font-bold text-orange-600">🚀</div>
+                <div class="text-gray-600 mt-2">CI/CD Ready</div>
+            </div>
+        </div>
+
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Escolha sua Integração</h2>
+
+        <!-- Integration Options Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <!-- Option 1 -->
+            <div class="card bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
+                <div class="bg-gradient-to-r from-purple-500 to-purple-600 p-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold">Opção 1</h3>
+                        <span class="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-sm">Simples</span>
+                    </div>
+                    <p class="text-3xl font-bold mb-2">🔘 Botão Integrado</p>
+                    <p class="text-purple-100">Interface DevFlow com botão LinkNow</p>
+                </div>
+                <div class="p-6">
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Implementação rápida e fácil</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Ferramentas separadas e independentes</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Painel especial após análise</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Abre LinkNow em nova janela</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="option1/devflow-integrated.html" target="_blank" class="flex-1 px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors text-center">
+                            🚀 Testar Agora
+                        </a>
+                        <a href="INTEGRATION_COMPLETE_GUIDE.md#opção-1-botão-integrado-no-devflow" class="px-6 py-3 border-2 border-purple-600 text-purple-600 rounded-lg font-semibold hover:bg-purple-50 transition-colors">
+                            📖 Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 2 -->
+            <div class="card bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
+                <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold">Opção 2</h3>
+                        <span class="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-sm">Unificado</span>
+                    </div>
+                    <p class="text-3xl font-bold mb-2">🖼️ iFrame Embedado</p>
+                    <p class="text-blue-100">Dashboard com abas integradas</p>
+                </div>
+                <div class="p-6">
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Interface totalmente unificada</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">3 abas: DevFlow, LinkNow, Workflow</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Sem alternância de janelas</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Ideal para equipes e corporativo</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="option2/unified-iframe.html" target="_blank" class="flex-1 px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors text-center">
+                            🚀 Testar Agora
+                        </a>
+                        <a href="INTEGRATION_COMPLETE_GUIDE.md#opção-2-iframe-embedado-dashboard-unificado" class="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+                            📖 Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 3 -->
+            <div class="card bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow">
+                <div class="bg-gradient-to-r from-green-500 to-green-600 p-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold">Opção 3</h3>
+                        <span class="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-sm">Automação</span>
+                    </div>
+                    <p class="text-3xl font-bold mb-2">🤖 Script Node.js</p>
+                    <p class="text-green-100">Automação completa do workflow</p>
+                </div>
+                <div class="p-6">
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Workflow 100% automatizado</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Ideal para CI/CD pipelines</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Logs coloridos e detalhados</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-green-500 mt-1">✓</span>
+                            <span class="text-gray-700">Pronto para GitHub Actions</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-4 mb-4">
+                        <code class="text-green-400 text-sm">
+                            $ node automation-script.js<br>
+                            &nbsp;&nbsp;--project ./my-app<br>
+                            &nbsp;&nbsp;--branding true<br>
+                            &nbsp;&nbsp;--sign true
+                        </code>
+                    </div>
+                    <div class="flex space-x-3">
+                        <a href="option3/automation-script.js" download class="flex-1 px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors text-center">
+                            📥 Download
+                        </a>
+                        <a href="INTEGRATION_COMPLETE_GUIDE.md#opção-3-script-de-automação-javascript" class="px-6 py-3 border-2 border-green-600 text-green-600 rounded-lg font-semibold hover:bg-green-50 transition-colors">
+                            📖 Docs
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Option 4 -->
+            <div class="card bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow opacity-75">
+                <div class="bg-gradient-to-r from-orange-500 to-orange-600 p-6 text-white">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="text-2xl font-bold">Opção 4</h3>
+                        <span class="px-3 py-1 bg-white/20 backdrop-blur rounded-full text-sm">Em Breve</span>
+                    </div>
+                    <p class="text-3xl font-bold mb-2">📊 Dashboard Completo</p>
+                    <p class="text-orange-100">Gerenciamento avançado de projetos</p>
+                </div>
+                <div class="p-6">
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-start space-x-2">
+                            <span class="text-orange-500 mt-1">🚧</span>
+                            <span class="text-gray-700">Dashboard visual com métricas</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-orange-500 mt-1">🚧</span>
+                            <span class="text-gray-700">Gerenciamento de múltiplos projetos</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-orange-500 mt-1">🚧</span>
+                            <span class="text-gray-700">Workflow visual drag-and-drop</span>
+                        </div>
+                        <div class="flex items-start space-x-2">
+                            <span class="text-orange-500 mt-1">🚧</span>
+                            <span class="text-gray-700">Analytics e colaboração</span>
+                        </div>
+                    </div>
+                    <div class="flex space-x-3">
+                        <button disabled class="flex-1 px-6 py-3 bg-gray-400 text-white rounded-lg font-semibold cursor-not-allowed">
+                            🚧 Em Desenvolvimento
+                        </button>
+                        <a href="INTEGRATION_COMPLETE_GUIDE.md#opção-4-dashboard-unificado-completo-conceito" class="px-6 py-3 border-2 border-orange-600 text-orange-600 rounded-lg font-semibold hover:bg-orange-50 transition-colors">
+                            📖 Roadmap
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Documentation Section -->
+        <div class="bg-white rounded-2xl shadow-xl p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">📚 Documentação</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <a href="README.md" class="block p-6 border-2 border-gray-200 rounded-xl hover:border-blue-600 hover:shadow-lg transition-all">
+                    <div class="text-4xl mb-3">📖</div>
+                    <h3 class="font-bold text-lg mb-2">README</h3>
+                    <p class="text-gray-600 text-sm">Visão geral e quick start</p>
+                </a>
+                <a href="INTEGRATION_COMPLETE_GUIDE.md" class="block p-6 border-2 border-gray-200 rounded-xl hover:border-blue-600 hover:shadow-lg transition-all">
+                    <div class="text-4xl mb-3">📘</div>
+                    <h3 class="font-bold text-lg mb-2">Guia Completo</h3>
+                    <p class="text-gray-600 text-sm">Documentação detalhada de todas as opções</p>
+                </a>
+                <a href="option3/automation-script.js" download class="block p-6 border-2 border-gray-200 rounded-xl hover:border-blue-600 hover:shadow-lg transition-all">
+                    <div class="text-4xl mb-3">💻</div>
+                    <h3 class="font-bold text-lg mb-2">Código Fonte</h3>
+                    <p class="text-gray-600 text-sm">Scripts e exemplos completos</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Links Section -->
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl shadow-xl p-8 text-white">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold mb-4">🔗 Links Importantes</h2>
+                <p class="text-blue-100">Acesse as ferramentas integradas</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="https://5060-i3rr3wfus70di3elc3v0j-02b9cc79.sandbox.novita.ai" target="_blank" class="block p-6 bg-white/10 backdrop-blur rounded-xl hover:bg-white/20 transition-all">
+                    <div class="flex items-center space-x-4">
+                        <div class="text-4xl">🎨</div>
+                        <div>
+                            <h3 class="font-bold text-lg">LinkNow Branding Tool</h3>
+                            <p class="text-blue-100 text-sm">Ferramenta de branding completa</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="block p-6 bg-white/10 backdrop-blur rounded-xl">
+                    <div class="flex items-center space-x-4">
+                        <div class="text-4xl">⚡</div>
+                        <div>
+                            <h3 class="font-bold text-lg">DevFlow Pipeline</h3>
+                            <p class="text-blue-100 text-sm">Pipeline de análise e deploy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12 mt-12">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <p class="text-xl mb-2">Powered by LinkNow Digital Strategy</p>
+            <p class="text-gray-400">Transforming Ideas into Digital Reality</p>
+            <div class="mt-6 space-x-6">
+                <a href="#" class="text-blue-400 hover:text-blue-300">📧 Email</a>
+                <a href="#" class="text-blue-400 hover:text-blue-300">🌐 Website</a>
+                <a href="#" class="text-blue-400 hover:text-blue-300">📚 Docs</a>
+            </div>
+            <p class="text-gray-500 text-sm mt-6">© 2025 LinkNow Digital Strategy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

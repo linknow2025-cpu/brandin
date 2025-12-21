@@ -1,0 +1,59 @@
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# IDE related
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS related
+.DS_Store
+Thumbs.db
+
+# Node.js related (for automation script)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Sensitive data
+*.keystore
+*.jks
+key.properties
+google-services.json
+firebase-admin-sdk.json
+
+# Local configuration
+.env
+.env.local
